@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projects\\event-management-system\\API\\wwwroot\\images\\20231115T205213ILTQq.png",
+      "PackagePath": "staticwebassets\\images\\20231115T205213ILTQq.png"
+    },
+    {
+      "Id": "D:\\Projects\\event-management-system\\API\\wwwroot\\images\\20231115T210240ILTQq.png",
+      "PackagePath": "staticwebassets\\images\\20231115T210240ILTQq.png"
+    },
+    {
+      "Id": "D:\\Projects\\event-management-system\\API\\wwwroot\\images\\20231115T210307ILTQq.png",
+      "PackagePath": "staticwebassets\\images\\20231115T210307ILTQq.png"
+    },
+    {
+      "Id": "D:\\Projects\\event-management-system\\API\\wwwroot\\images\\20231115T210330ILTQq.png",
+      "PackagePath": "staticwebassets\\images\\20231115T210330ILTQq.png"
+    },
+    {
+      "Id": "D:\\Projects\\event-management-system\\API\\wwwroot\\images\\20231115T210402ILTQq.png",
+      "PackagePath": "staticwebassets\\images\\20231115T210402ILTQq.png"
+    },
+    {
+      "Id": "D:\\Projects\\event-management-system\\API\\wwwroot\\images\\ILTQq.png",
+      "PackagePath": "staticwebassets\\images\\ILTQq.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.API.props",
+      "PackagePath": "build\\API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.API.props",
+      "PackagePath": "buildMultiTargeting\\API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.API.props",
+      "PackagePath": "buildTransitive\\API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
