@@ -1,11 +1,11 @@
 using API.Services;
+using Application.Companies;
 using Application.Core;
-using Application.Events;
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using Persistence.Data;
+using Persistence;
 
 namespace API.Extensions
 {
@@ -18,15 +18,16 @@ namespace API.Extensions
             services.AddDbContext<DataContext>(option =>
             {
                 option.UseSqlServer(config.GetConnectionString("DefConn"));
-            });
-           
+            });           
 
-            services.AddAutoMapper(typeof(MappingProfiles).Assembly);
+            services.AddAutoMapper(typeof(CompanyMappingProfiles).Assembly);
+            services.AddAutoMapper(typeof(BranchMappingProfiles).Assembly);
+            services.AddAutoMapper(typeof(LicenceMappingProfiles).Assembly);
+
             services.AddMediatR(typeof(List.Handler));
             services.AddFluentValidationAutoValidation();
             services.AddValidatorsFromAssemblyContaining<Create>();
 
-            //services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddScoped(typeof(IAuthService), typeof(AuthService));
 
             return services;

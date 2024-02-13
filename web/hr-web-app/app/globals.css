@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-size: medium;
+}
+
+.react-datepicker-wrapper {
+    width: 100%;
+}
+
+.PaginationDitRTL ul li button {
+    border-radius: 0% !important;
+}

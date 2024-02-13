@@ -1,38 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\event-management-system\\API\\API.csproj": {}
+    "D:\\Projects\\human-resources-management-system\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\event-management-system\\API\\API.csproj": {
+    "D:\\Projects\\human-resources-management-system\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\event-management-system\\API\\API.csproj",
+        "projectUniqueName": "D:\\Projects\\human-resources-management-system\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Projects\\event-management-system\\API\\API.csproj",
+        "projectPath": "D:\\Projects\\human-resources-management-system\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Raed Farhan\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\event-management-system\\API\\obj\\",
+        "outputPath": "D:\\Projects\\human-resources-management-system\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Raed Farhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Projects\\event-management-system\\Application\\Application.csproj": {
-                "projectPath": "D:\\Projects\\event-management-system\\Application\\Application.csproj"
+              "D:\\Projects\\human-resources-management-system\\Application\\Application.csproj": {
+                "projectPath": "D:\\Projects\\human-resources-management-system\\Application\\Application.csproj"
               },
-              "D:\\Projects\\event-management-system\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Projects\\event-management-system\\Domain\\Domain.csproj"
+              "D:\\Projects\\human-resources-management-system\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Projects\\human-resources-management-system\\Domain\\Domain.csproj"
               }
             }
           }
@@ -41,35 +41,42 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.102.2, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[7.0.13, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[7.0.13, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.13, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.13, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[7.0.11, )"
+              "version": "[8.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -87,24 +94,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[7.0.14, 7.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -113,39 +102,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projects\\event-management-system\\Application\\Application.csproj": {
+    "D:\\Projects\\human-resources-management-system\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\event-management-system\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\Projects\\human-resources-management-system\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\Projects\\event-management-system\\Application\\Application.csproj",
+        "projectPath": "D:\\Projects\\human-resources-management-system\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Raed Farhan\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\event-management-system\\Application\\obj\\",
+        "outputPath": "D:\\Projects\\human-resources-management-system\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Raed Farhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Projects\\event-management-system\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Projects\\event-management-system\\Domain\\Domain.csproj"
+              "D:\\Projects\\human-resources-management-system\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Projects\\human-resources-management-system\\Domain\\Domain.csproj"
               },
-              "D:\\Projects\\event-management-system\\Persistence\\Persistence.csproj": {
-                "projectPath": "D:\\Projects\\event-management-system\\Persistence\\Persistence.csproj"
+              "D:\\Projects\\human-resources-management-system\\Persistence\\Persistence.csproj": {
+                "projectPath": "D:\\Projects\\human-resources-management-system\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -154,11 +143,14 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -174,7 +166,7 @@
             },
             "FluentValidation.DependencyInjectionExtensions": {
               "target": "Package",
-              "version": "[11.8.0, )"
+              "version": "[11.8.1, )"
             },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -200,52 +192,38 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projects\\event-management-system\\Domain\\Domain.csproj": {
+    "D:\\Projects\\human-resources-management-system\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\event-management-system\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Projects\\human-resources-management-system\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Projects\\event-management-system\\Domain\\Domain.csproj",
+        "projectPath": "D:\\Projects\\human-resources-management-system\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Raed Farhan\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\event-management-system\\Domain\\obj\\",
+        "outputPath": "D:\\Projects\\human-resources-management-system\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Raed Farhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -253,15 +231,18 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.13, )"
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -275,55 +256,41 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projects\\event-management-system\\Persistence\\Persistence.csproj": {
+    "D:\\Projects\\human-resources-management-system\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\event-management-system\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "D:\\Projects\\human-resources-management-system\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "D:\\Projects\\event-management-system\\Persistence\\Persistence.csproj",
+        "projectPath": "D:\\Projects\\human-resources-management-system\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\Raed Farhan\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\event-management-system\\Persistence\\obj\\",
+        "outputPath": "D:\\Projects\\human-resources-management-system\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Raed Farhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Projects\\event-management-system\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Projects\\event-management-system\\Domain\\Domain.csproj"
+              "D:\\Projects\\human-resources-management-system\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Projects\\human-resources-management-system\\Domain\\Domain.csproj"
               }
             }
           }
@@ -332,19 +299,22 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.13, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.13, )"
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -358,26 +328,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

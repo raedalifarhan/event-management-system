@@ -1,27 +1,7 @@
 {
   "Files": [
     {
-      "Id": "D:\\Projects\\event-management-system\\API\\wwwroot\\images\\20231115T205213ILTQq.png",
-      "PackagePath": "staticwebassets\\images\\20231115T205213ILTQq.png"
-    },
-    {
-      "Id": "D:\\Projects\\event-management-system\\API\\wwwroot\\images\\20231115T210240ILTQq.png",
-      "PackagePath": "staticwebassets\\images\\20231115T210240ILTQq.png"
-    },
-    {
-      "Id": "D:\\Projects\\event-management-system\\API\\wwwroot\\images\\20231115T210307ILTQq.png",
-      "PackagePath": "staticwebassets\\images\\20231115T210307ILTQq.png"
-    },
-    {
-      "Id": "D:\\Projects\\event-management-system\\API\\wwwroot\\images\\20231115T210330ILTQq.png",
-      "PackagePath": "staticwebassets\\images\\20231115T210330ILTQq.png"
-    },
-    {
-      "Id": "D:\\Projects\\event-management-system\\API\\wwwroot\\images\\20231115T210402ILTQq.png",
-      "PackagePath": "staticwebassets\\images\\20231115T210402ILTQq.png"
-    },
-    {
-      "Id": "D:\\Projects\\event-management-system\\API\\wwwroot\\images\\ILTQq.png",
+      "Id": "D:\\Projects\\human-resources-management-system\\API\\wwwroot\\images\\ILTQq.png",
       "PackagePath": "staticwebassets\\images\\ILTQq.png"
     },
     {

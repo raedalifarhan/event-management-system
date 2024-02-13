@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projects\\human-resources-management-system\\API\\wwwroot\\files\\20240212073133raeed al-farhan.pdf",
+      "PackagePath": "staticwebassets\\files\\20240212073133raeed al-farhan.pdf"
+    },
+    {
+      "Id": "D:\\Projects\\human-resources-management-system\\API\\wwwroot\\files\\20240212111408.NET 8 Developer Roadmap for 2024 \uD83D\uDE80-1.pdf",
+      "PackagePath": "staticwebassets\\files\\20240212111408.NET 8 Developer Roadmap for 2024 \uD83D\uDE80-1.pdf"
+    },
+    {
+      "Id": "D:\\Projects\\human-resources-management-system\\API\\wwwroot\\files\\20240212113042raeed al-farhan.pdf",
+      "PackagePath": "staticwebassets\\files\\20240212113042raeed al-farhan.pdf"
+    },
+    {
+      "Id": "D:\\Projects\\human-resources-management-system\\API\\wwwroot\\files\\20240213113831maids backend spring boot job description.pdf",
+      "PackagePath": "staticwebassets\\files\\20240213113831maids backend spring boot job description.pdf"
+    },
+    {
+      "Id": "D:\\Projects\\human-resources-management-system\\API\\wwwroot\\images\\20240212111818ILTQq.png",
+      "PackagePath": "staticwebassets\\images\\20240212111818ILTQq.png"
+    },
+    {
+      "Id": "D:\\Projects\\human-resources-management-system\\API\\wwwroot\\images\\20240212113016ILTQq.png",
+      "PackagePath": "staticwebassets\\images\\20240212113016ILTQq.png"
+    },
+    {
+      "Id": "D:\\Projects\\human-resources-management-system\\API\\wwwroot\\images\\20240213113801ILTQq.png",
+      "PackagePath": "staticwebassets\\images\\20240213113801ILTQq.png"
+    },
+    {
+      "Id": "D:\\Projects\\human-resources-management-system\\API\\wwwroot\\images\\ILTQq.png",
+      "PackagePath": "staticwebassets\\images\\ILTQq.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.API.props",
+      "PackagePath": "build\\API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.API.props",
+      "PackagePath": "buildMultiTargeting\\API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.API.props",
+      "PackagePath": "buildTransitive\\API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

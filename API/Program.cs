@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
-using Persistence.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,15 +30,18 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors("Access-Control-Allow-Origin");
+
 app.UseHttpsRedirection();
 
 app.UseStaticFiles();
 
-app.UseCors(options => {
-    options.AllowAnyHeader()
-    .AllowAnyMethod()
-    .AllowAnyOrigin();
-});
+// app.UseCors(options => {
+//     options.AllowAnyHeader()
+//     .AllowAnyMethod()
+//     .AllowAnyOrigin();
+// });
 
 app.UseAuthentication();
 app.UseAuthorization();

@@ -1,35 +1,39 @@
+﻿
 using Domain;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace Persistence.Data
+namespace Persistence
 {
     public class DataContext : IdentityDbContext<AppUser>
     {
-        public DbSet<Event> Events { get; set; }
-
-        public DbSet<Ticket> Tickets { get; set; }
-
         public DataContext(DbContextOptions<DataContext> options) : base(options)
-        {
+        {   
         }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
 
-            builder.Entity<Ticket>()
-            .HasKey(cp => new { cp.UserId, cp.EventId });
-
-            builder.Entity<Ticket>()
-                .HasOne(cp => cp.User)
-                .WithMany(p => p.Tickets)
-                .HasForeignKey(cp => cp.UserId);
-
-            builder.Entity<Ticket>()
-                .HasOne(cp => cp.Event)
-                .WithMany(c => c.Tickets)
-                .HasForeignKey(cp => cp.EventId);
+            builder.Entity<SalaryHistory>()
+                .Property(s => s.Salary)
+                .HasColumnType("decimal(18, 2)"); // Example precision and scale - adjust as needed
         }
+
+        public DbSet<Branch> Branches { get; set; }
+        public DbSet<Company> Companies { get; set; }
+
+        public DbSet<Department> Departments { get; set; }
+        public DbSet<LicenceDetail> LicenceDetails { get; set; }
+
+        public DbSet<JobPosition> JobPositions { get; set; }
+
+        public DbSet<Employee> Employees { get; set; }
+
+        public DbSet<Vacation> Vacations { get; set; }
+
+        public DbSet<SalaryHistory> SalaryHistories { get; set; }
+
+
     }
 }

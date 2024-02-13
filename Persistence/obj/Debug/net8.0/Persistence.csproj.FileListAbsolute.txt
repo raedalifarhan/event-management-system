@@ -1,0 +1,16 @@
+D:\Projects\human-resources-management-system\Persistence\bin\Debug\net8.0\Persistence.deps.json
+D:\Projects\human-resources-management-system\Persistence\bin\Debug\net8.0\Persistence.dll
+D:\Projects\human-resources-management-system\Persistence\bin\Debug\net8.0\Persistence.pdb
+D:\Projects\human-resources-management-system\Persistence\bin\Debug\net8.0\Domain.dll
+D:\Projects\human-resources-management-system\Persistence\bin\Debug\net8.0\Domain.pdb
+D:\Projects\human-resources-management-system\Persistence\obj\Debug\net8.0\Persistence.csproj.AssemblyReference.cache
+D:\Projects\human-resources-management-system\Persistence\obj\Debug\net8.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\human-resources-management-system\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfoInputs.cache
+D:\Projects\human-resources-management-system\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfo.cs
+D:\Projects\human-resources-management-system\Persistence\obj\Debug\net8.0\Persistence.csproj.CoreCompileInputs.cache
+D:\Projects\human-resources-management-system\Persistence\obj\Debug\net8.0\Persistence.sourcelink.json
+D:\Projects\human-resources-management-system\Persistence\obj\Debug\net8.0\Persistence.csproj.CopyComplete
+D:\Projects\human-resources-management-system\Persistence\obj\Debug\net8.0\Persistence.dll
+D:\Projects\human-resources-management-system\Persistence\obj\Debug\net8.0\refint\Persistence.dll
+D:\Projects\human-resources-management-system\Persistence\obj\Debug\net8.0\Persistence.pdb
+D:\Projects\human-resources-management-system\Persistence\obj\Debug\net8.0\ref\Persistence.dll

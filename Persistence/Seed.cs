@@ -1,17 +1,16 @@
-using Domain;
+﻿using Domain;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using Persistence.Data;
-
 
 namespace Persistence
 {
     public class Seed
     {
-        public static async Task SeedData(DataContext context, 
-            UserManager<AppUser> userManager, 
-            RoleManager<IdentityRole> _roleManager, 
+
+        public static async Task SeedData(DataContext context,
+            UserManager<AppUser> userManager,
+            RoleManager<IdentityRole> _roleManager,
             ILoggerFactory loggerFactory)
         {
             try
@@ -31,6 +30,7 @@ namespace Persistence
                     {
                         await _roleManager.CreateAsync(role);
                     }
+
                     await context.SaveChangesAsync();
 
                     // Create a user
@@ -62,6 +62,39 @@ namespace Persistence
 
                 }
 
+                // Branch
+                if (!context.Branches.Any())
+                {
+                    var branchList = new List<Branch>
+                    {
+                        new Branch { BranchName = "دير الزور" , Flag = "DEZ"},
+                        new Branch { BranchName = "الطبقة" , Flag = "TBQ"},
+                        new Branch { BranchName = "كوباني"  , Flag = "QUB"},
+                        new Branch { BranchName = "منبج" , Flag = "MNBJ"},
+                        new Branch { BranchName = "ديريك" , Flag = "DRK"},
+                        new Branch { BranchName = "القامشلي" , Flag = "QMSH"},
+                    };
+                    await context.Branches.AddRangeAsync(branchList);
+                    await context.SaveChangesAsync();
+                }
+
+                // Job Positions
+                if (!context.JobPositions.Any())
+                {
+                    var jobPositionList = new List<JobPosition>
+                    {
+                        new JobPosition { PositionName = "Assistant" },
+                        new JobPosition { PositionName = "Officer" },
+                        new JobPosition { PositionName = "Team Leader" },
+                        new JobPosition { PositionName = "Manager"  },
+                        new JobPosition { PositionName = "Coordinator" },
+                        new JobPosition { PositionName = "Head of office" },
+                    };
+                    await context.JobPositions.AddRangeAsync(jobPositionList);
+                    await context.SaveChangesAsync();
+                }
+
+
 
 
             }
@@ -71,5 +104,6 @@ namespace Persistence
                 logger.LogError(ex.Message);
             }
         }
+
     }
 }
